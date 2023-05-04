@@ -77,3 +77,37 @@ section nav .icon i{
 section nav .icon i:hover{
     color: #fac031;
 }
+
+/* main section================= */
+section .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 130px;
+}
+section .main .main-text h1{
+    font-size: 60px;
+    position: relative;
+    top:-90px;
+    left: 20px;
+}
+section .main .main-text span{
+    margin-left: 15px;
+    color: #fac031;
+    line-height: 22px;
+    font-size: 70px;
+}
+section .main .main-image img{
+    width: 700px;
+    position: relative;
+    left: 70px;
+}
+section p{
+    width: 650px;
+    text-align: center;
+    position: relative;
+    left: 120px;
+    /* bottom: 120; */
+    line-height: 22px;
+}
